@@ -1,0 +1,58 @@
+
+//JSX - JS XML
+
+// custom component
+// 1. First letter must be captial
+// 2. It returns a JSX element
+// component declaration
+//{} - template syntax
+//class in JS - reserved  keyword
+// SPA - index.html only one - public folder
+// JSX  - Javascript XML / extended
+// JSX -> converted to Javascript
+//Webpack + babel  -  React code
+// props - object
+
+//Hooks - function
+//useState - hook
+//const [state, setState] = useState(initialValue)
+//state - state of art of technology, state of mind
+
+//Import and Export
+// 1. named - import and export - prefered
+// 2.   default  - import and export
+
+
+/arrow function
+
+// const Welcomes = () => {
+//   return (
+//     <div>
+//       <h1>Hello {props.name}🥳🥳😀😀</h1>
+//     </div>
+//   );
+// };
+
+
+import and export 
+
+//  import { ColorBox, double } from "./ColorBox"; //named import
+// import {double }from "./ColorBox";
+import { AddColor } from "./AddColor";
+// console.log(double(100));
+// console.log(triple(100));
+
+
+  //Js starts
+  //Array of strings
+  // const people = ["Harish", "rahul", "Devi", "Praveen", "sajid"];
+  // Array of object - {}
+
+
+    {/* {users.map((usr) => (
+        <Msg name={usr.name} pic={usr.pic} />
+      ))} */}
+
+      {/* {people.map((person) => (
+        <Welcome name={person} />
+      ))} */}
